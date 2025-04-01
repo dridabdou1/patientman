@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-PatientmanApplication<patientman>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.patientman.patientman.PatientmanApplication",
+      "projectName": "patientman",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
