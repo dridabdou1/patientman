@@ -32,7 +32,7 @@ public class Patient {
     @NotNull
     @Email
     @Column(unique = true)
-    private String Email;
+    private String email;
 
     @NotNull
     private String address;
@@ -41,5 +41,5 @@ public class Patient {
     private LocalDate dateOfBirth;
     
     @NotNull
-    private LocalDate RegisterDate;
+    private LocalDate registeredDate;
 }

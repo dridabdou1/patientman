@@ -1,0 +1,30 @@
+POST http://localhost:4000/api/patients HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "John Doe 12",
+    "email": "john.doe12@example.com",
+    "address": "123 Main St, Springfield",
+    "dateOfBirth": "1985-06-15"
+}
+
+###
+PUT http://localhost:4000/api/patients/123e4567-e89b-12d3-a456-426614174000 HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "email": "john.doe13@example.com",
+    "name": "John Doe 13",
+    "address": "This is the partially updated content of the article.",
+    "dateOfBirth": "1985-06-15"
+}
+
+### Get an Article by ID (GET)
+GET http://localhost:4000/api/patients/123e4567-e89b-12d3-a456-426614174000 HTTP/1.1
+
+### List All Articles (GET)
+GET http://localhost:4000/api/patients 
+
+### Delete an Article (DELETE)
+DELETE http://localhost:4000/api/patients/0b9f99fc-6c06-4268-b549-11397ee4cd2f HTTP/1.1
