@@ -2,6 +2,7 @@ D:\java\springboot\patient-management\patientman\src\main\java\com\patientman\pa
 D:\java\springboot\patient-management\patientman\src\main\java\com\patientman\patientman\dto\PatientCreateDTO.java
 D:\java\springboot\patient-management\patientman\src\main\java\com\patientman\patientman\dto\PatientResponseDTO.java
 D:\java\springboot\patient-management\patientman\src\main\java\com\patientman\patientman\dto\PatientUpdateDTO.java
+D:\java\springboot\patient-management\patientman\src\main\java\com\patientman\patientman\dto\validation\CreatePatientValidationGroup.java
 D:\java\springboot\patient-management\patientman\src\main\java\com\patientman\patientman\mapper\PatientCreateDTOMapper.java
 D:\java\springboot\patient-management\patientman\src\main\java\com\patientman\patientman\mapper\PatientResponseDTOMapper.java
 D:\java\springboot\patient-management\patientman\src\main\java\com\patientman\patientman\mapper\PatientUpdateDTOMapper.java
