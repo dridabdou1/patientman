@@ -1,0 +1,12 @@
+com\patientman\patientman\controllers\PatientController.class
+com\patientman\patientman\PatientmanApplication.class
+com\patientman\patientman\repositories\PatientRepository.class
+com\patientman\patientman\mapper\PatientResponseDTOMapper.class
+com\patientman\patientman\dto\PatientUpdateDTO.class
+com\patientman\patientman\dto\validation\CreatePatientValidationGroup.class
+com\patientman\patientman\mapper\PatientUpdateDTOMapper.class
+com\patientman\patientman\dto\PatientCreateDTO.class
+com\patientman\patientman\models\Patient.class
+com\patientman\patientman\mapper\PatientCreateDTOMapper.class
+com\patientman\patientman\dto\PatientResponseDTO.class
+com\patientman\patientman\repositories\services\PatientService.class
