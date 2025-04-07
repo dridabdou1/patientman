@@ -1,0 +1,7 @@
+grpc_cli call --json_input --json_output localhost:9002/BillingService/CreateBillingAccount
+
+{
+    "patientId": "1213123",
+    "name": "azrz draeza",
+    "email": "mail.llp@dad.sr"
+}
