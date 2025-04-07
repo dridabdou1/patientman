@@ -21,3 +21,10 @@ Can you elaborate on your experience with microservices architecture and how you
 What challenges have you faced when integrating SAP B1 with other systems, and how did you overcome them?
 Can you provide examples of how you stay updated with new technologies and frameworks in the software development industry?
 How do you prioritize and manage your tasks when working on multiple projects simultaneously?
+
+#### generate target folder
+
+make sure that the pom has grpc build then execute this to generate the stub
+
+                mvn clean compile
+
