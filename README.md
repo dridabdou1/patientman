@@ -1,6 +1,6 @@
 #### openApi url
 
-    http://localhost:4000/v3/api-docs
+    http://localhost:4100/v3/api-docs
 
 ### docker stuff
 
@@ -27,4 +27,3 @@ How do you prioritize and manage your tasks when working on multiple projects si
 make sure that the pom has grpc build then execute this to generate the stub
 
                 mvn clean compile
-

@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS patient
 
 -- Insert well-known UUIDs for specific patients
 INSERT INTO patient (id, name, email, address, date_of_birth, registered_date)
-SELECT '123e4567-e89b-12d3-a456-426614174000',
+SELECT '123e4567-e89b-12d3-a456-426614174100',
        'John Doe',
        'john.doe@example.com',
        '123 Main St, Springfield',
@@ -19,7 +19,7 @@ SELECT '123e4567-e89b-12d3-a456-426614174000',
        '2024-01-10'
 WHERE NOT EXISTS (SELECT 1
                   FROM patient
-                  WHERE id = '123e4567-e89b-12d3-a456-426614174000');
+                  WHERE id = '123e4567-e89b-12d3-a456-426614174100');
 
 INSERT INTO patient (id, name, email, address, date_of_birth, registered_date)
 SELECT '123e4567-e89b-12d3-a456-426614174001',
@@ -33,7 +33,7 @@ WHERE NOT EXISTS (SELECT 1
                   WHERE id = '123e4567-e89b-12d3-a456-426614174001');
 
 INSERT INTO patient (id, name, email, address, date_of_birth, registered_date)
-SELECT '123e4567-e89b-12d3-a456-426614174002',
+SELECT '123e4567-e89b-12d3-a456-426614174102',
        'Alice Johnson',
        'alice.johnson@example.com',
        '789 Oak St, Capital City',
@@ -41,7 +41,7 @@ SELECT '123e4567-e89b-12d3-a456-426614174002',
        '2022-06-20'
 WHERE NOT EXISTS (SELECT 1
                   FROM patient
-                  WHERE id = '123e4567-e89b-12d3-a456-426614174002');
+                  WHERE id = '123e4567-e89b-12d3-a456-426614174102');
 
 INSERT INTO patient (id, name, email, address, date_of_birth, registered_date)
 SELECT '123e4567-e89b-12d3-a456-426614174003',
